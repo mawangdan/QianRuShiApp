@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">智能鱼缸</string>
+    <string name="title_activity_main2">智能鱼缸</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">嵌入式智能鱼缸系统</string>
+    <string name="nav_header_subtitle">基于龙芯教育派</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">监测</string>
+    <string name="menu_gallery">控制</string>
+    <string name="menu_slideshow">实时直播</string>
+</resources>
