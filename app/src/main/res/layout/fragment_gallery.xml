@@ -29,6 +29,82 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:background="#76C6FA"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="42dp"
+                        android:layout_marginVertical="8dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/kitchen"
+                        android:textAlignment="viewEnd"
+                        tools:ignore="ContentDescription" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="85dp"
+                        android:layout_height="79dp"
+                        android:layout_margin="15dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/bedroom"
+                        android:textAlignment="viewEnd"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:text="加热"
+                        android:textSize="26sp" />
+
+                    <Switch
+                        android:id="@+id/jiare_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="85dp"
+                        android:layout_marginTop="40dp"
+                        android:checked="true"
+                        android:minHeight="48dp"
+                        android:showText="true"
+                        android:textSize="26sp"
+                        android:thumb="@drawable/thumb"
+                        android:track="@drawable/track"
+                        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/divider"
+                android:orientation="vertical"
+                android:showDividers="middle">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="53dp"
                     android:background="#76C6FA"
                     android:gravity="center"

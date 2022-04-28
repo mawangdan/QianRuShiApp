@@ -95,6 +95,25 @@ public class HomeFragment extends Fragment {
                 }
             }
         });
+        Switch swTg=root.findViewById(R.id.switchtg);
+        swTg.setChecked(false);
+        swTg.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(b){
+                    waterHeight1.connect();
+                    foodLast1.connect();
+                    waterTemp1.connect();
+                    grassLight1.connect();
+                }
+                else{
+                    waterHeight1.disconnect();
+                    foodLast1.disconnect();
+                    waterTemp1.disconnect();
+                    grassLight1.disconnect();
+                }
+            }
+        });
         return root;
     }
 
