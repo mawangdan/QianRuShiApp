@@ -1,2 +1,1 @@
-# MyDemoCameraRtmpLive
-Demo 一直拉rtmp流
+# 许苍柏(马王)自主研发App，功能强大
